@@ -14,6 +14,9 @@ import com.util.StringUtil;
 
 public class StudentDao {
 
+	/*
+	 * 查询学生列表
+	 */
 	public ResultSet studentList(Connection con,PageBean pageBean)throws Exception{
 		StringBuffer sb=new StringBuffer("select * from t_student s,t_grade g where s.gradeId=g.id");
 		if(pageBean!=null){
