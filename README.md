@@ -1,0 +1,2 @@
+# StudentInfoManage
+基于JSP和Servlet的学生信息管理系统,界面是用EasyUI做的，这是我刚刚学习JSP和Servlet时做的一个小项目，比较简单，仅仅拿来练手
